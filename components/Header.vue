@@ -6,7 +6,7 @@ export default {
 </script>
 <!-- Please remove this file from your project -->
 <template>
-  <div class="flex">
+  <div>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css"
       rel="stylesheet"

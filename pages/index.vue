@@ -11,9 +11,11 @@ export default {
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link href="https://www.dafont.com/retro-gaming.font" rel="stylesheet" />
+
     <Header />
-    <JobPost />
+    <Board>
+      <JobPost />
+    </Board>
   </div>
 </template>
 
