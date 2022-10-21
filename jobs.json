@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Save Hyrule",
+    "description": "Looking for somebody to come save the day! Please there are monsters all over place",
+    "benefits": [
+      "Unlimited breakable pots",
+      "Gems",
+      "other sidequests"
+    ]
+  },
+  {
+    "title": "Mushroom Kingdom is under attack!",
+    "description": "I've never seen so many GOombas",
+    "benefits": [
+      "Mushrooms",
+      "Coins",
+      "Fire Flowers"
+    ]
+  },
+  {
+    "title": "Fighters Needed for Tournament ",
+    "description": "Do you think you have what it takes to be the champions? Sign up and be ready to fight to the death in MORTALL KOMBAT!",
+    "benefits": [
+      "Fighting to the death",
+      "Ripping hearts out of chests",
+      "Very realistic graphics"
+    ]
+  },
+  {
+    "title": "Fighters Needed for Tournament ",
+    "description": "Do you think you have what it takes to be the champions? Sign up and be ready to fight to the death in MORTALL KOMBAT!",
+    "benefits": [
+      "Fighting to the death",
+      "Ripping hearts out of chests",
+      "Very realistic graphics"
+    ]
+  }
+]
