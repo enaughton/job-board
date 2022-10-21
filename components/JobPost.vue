@@ -26,9 +26,12 @@ export default {
         </li>
       </ul>
 
-      <button class="p-2 overflow-hidden text-white bg-blue-500 rounded">
+      <a
+        class="p-2 overflow-hidden text-white bg-blue-500 rounded"
+        :href="'mailto:' + job.email + '?subject=' + job.title"
+      >
         Email Us
-      </button>
+      </a>
     </div>
   </div>
 </template>
