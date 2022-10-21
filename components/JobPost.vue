@@ -14,15 +14,21 @@ export default {
     <div
       v-for="job in jobs"
       :key="job.title"
-      class="p-4 mt-8 sm:rounded-lg bg-gradient-to-tr from-green-600"
+      class="p-4 mt-8  sm:rounded-lg bg-gradient-to-tr from-green-600 hover:bg-white"
     >
-      <h2 class="text-2xl font-semibold leading-7">{{ job.title }}</h2>
-      <p class="mt-4 text-gray-600">{{ job.description }}</p>
+      <div class="flex flex-row content-around gap-8">
+        <h2 class="text-2xl font-semibold leading-7">{{ job.title }}</h2>
+      </div>
+      <p class="mt-4">{{ job.description }}</p>
       <ul class="p-4">
         <li v-for="item in job.benefits" :key="item" class="list-disc">
           {{ item }}
         </li>
       </ul>
+
+      <button class="p-2 overflow-hidden text-white bg-blue-500 rounded">
+        Email Us
+      </button>
     </div>
   </div>
 </template>
